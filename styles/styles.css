@@ -1,1 +1,62 @@
-h1 {}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    padding: 60px 100px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.link-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #cbcbcb;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.address-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.address-wrapper i {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 40px 100px;
+}
