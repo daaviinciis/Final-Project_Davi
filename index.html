@@ -1,51 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <title>Homepage</title>
+    <title>Página Principal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Estilos externos -->
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Homepage</h1>
-        
-    <!-- Navigation wrapper -->
-    <div>
-        <!-- Hours + phone -->
-        <div>
-            555-555-5555
-            10 AM - MIDNIGHT
+
+    <!-- Cabecera -->
+    <header class="navigation-wrapper">
+
+        <div class="contact-hours-wrapper">
+            <i class="fa-solid fa-phone-volume"></i>
+            555-555-5555 | 10 AM - MIDNOCHE
         </div>
 
-        <!-- Link wrapper -->
-        <div>
-            <!-- nav Link -->
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+        <!-- Enlaces de navegación -->
+        <nav class="link-wrapper">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="about.html">Acerca de</a>
+            <a class="nav-link" href="menu.html">Menú</a>
+            <a class="nav-link" href="contact.html">Contacto</a>
+        </nav>
 
-            <!-- nav Link -->
-            <div>
-                <a href="about.html">About</a>
-            </div>
-
-            <!-- nav Link -->
-            <div>
-                <a href="menu.html">Menu</a>
-            </div>
-
-            <!-- nav Link -->
-            <div>
-                <a href="contact.html">Contact</a>
-            </div>
+        <div class="address-wrapper">
+            <i class="fa-solid fa-location-dot"></i>
+            123 Any Street, Scottsdale, AZ, 85251
         </div>
 
-        <!-- Address -->
-        <div>
-            123 Any Street
-            Scottsdale, AZ, 85251
-        </div>
-    </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Página Principal</h1>
+        <p>Bienvenido a nuestra página.</p>
+    </main>
+
 </body>
 </html>
