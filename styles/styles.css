@@ -15,7 +15,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* Left column: teléfono y horario */
+/* Left column */
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
@@ -40,9 +40,18 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-/* Center column: logo y enlaces */
+/* Center column */
 .navigation-wrapper > .center-column {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+/* Logo centering */
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
 }
 
 .navigation-wrapper > .center-column > .banner-image img {
@@ -50,8 +59,11 @@ body {
     height: auto;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper {
+/* Links */
+.links-wrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -68,7 +80,7 @@ body {
     color: #ffffff;
 }
 
-/* Right column: dirección */
+/* Right column */
 .navigation-wrapper > .right-column > .address-wrapper {
     display: flex;
     align-items: center;
@@ -81,7 +93,7 @@ body {
     font-size: 1.5em;
 }
 
-/* Contenido principal */
+/* Main content */
 main {
     padding: 40px 100px;
 }
