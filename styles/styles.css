@@ -4,26 +4,43 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Navbar */
 .navigation-wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 190px;
+    justify-content: space-between;
     background-color: #11122b;
     color: #cbcbcb;
-    padding: 60px 100px;
+    padding: 20px 100px;
+    flex-wrap: wrap; /* permite que el logo quede encima del menú */
 }
 
+/* Logo encima del menú */
+.banner-image {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.banner-image img {
+    width: 216px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Columna izquierda */
 .left-column {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
+/* Icono de teléfono */
 .icon i {
     font-size: 2em;
 }
 
+/* Horarios */
 .left-column > .contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -34,9 +51,11 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+/* Navegación */
 .link-wrapper {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .nav-link {
@@ -51,6 +70,7 @@ body {
     color: #ffffff;
 }
 
+/* Columna derecha: dirección */
 .address-wrapper {
     display: flex;
     align-items: center;
@@ -63,6 +83,7 @@ body {
     font-size: 1.5em;
 }
 
+/* Contenido principal */
 main {
     padding: 40px 100px;
 }
