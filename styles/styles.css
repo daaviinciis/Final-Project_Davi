@@ -6,16 +6,17 @@
 }
 
 body {
-  background-color: #0a0a0a;
+  background: linear-gradient(to bottom, #888888, #222222);
   font-family: "Inter", sans-serif;
   color: white;
+  font-size: 18px;
 }
 
 /* HERO SECTION */
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 60px 50px;
+  padding: 50px 50px;
   gap: 40px;
 }
 
@@ -24,10 +25,10 @@ body {
 }
 
 .hero-left h1 {
-  font-size: 38px;
+  font-size: 33px;
   font-weight: 300;
   line-height: 1.3;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .bold {
@@ -35,36 +36,43 @@ body {
 }
 
 .description {
-  font-size: 20px;
+  font-size: 32px;
   color: #bdbdbd;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
-.big {
-  padding: 18px 28px;
-  font-size: 18px;
+/* BOTONES DE HERO */
+.hero-buttons .hero-btn {
+  padding: 25px 30px;
+  font-size: 28px;
+  border-radius: 2px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
 }
 
-.signup-green {
+/* Botón verde */
+.hero-buttons .hero-btn-green {
   background-color: #41d16a;
-  color: black;
-  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
 
-.learn {
-  background-color: #1f1f1f;
+/* Botón negro */
+.hero-buttons .hero-btn-black {
+  background-color: #111;
   color: white;
 }
 
 /* HERO RIGHT */
 .hero-right {
   width: 50%;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-right img {
@@ -73,9 +81,10 @@ body {
 }
 
 .caption {
-  margin-top: 12px;
-  font-size: 14px;
-  color: #bbb;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .blue {
