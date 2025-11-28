@@ -1,0 +1,17 @@
+/* FOOTER */
+.footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #161616;
+  padding: 20px 50px;
+}
+
+.footer-col {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-col .bold {
+  color: white;
+}
