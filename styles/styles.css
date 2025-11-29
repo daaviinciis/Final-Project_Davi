@@ -50,7 +50,7 @@ body {
 }
 
 .hero-buttons .hero-btn {
-  padding: 20px 25px;
+  padding: 15px 25px;
   font-size: 36px;
   border-radius: 3px;
   font-weight: 400;
@@ -59,13 +59,11 @@ body {
   transition: background 0.3s;
 }
 
-/* Botón verde */
 .hero-btn-green {
   background-color: #52c584;
   color: black;
 }
 
-/* Botón negro */
 .hero-btn-black {
   background-color: #111;
   color: white;
